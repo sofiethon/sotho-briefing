@@ -3,11 +3,11 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { RotateCcw } from "lucide-react";
-import { beispielBilder, paare, stilAusAntworten, stilSatz, type QuizBild } from "@/lib/quiz";
+import { beispielBilder, stilAusAntworten, stilSatz, type QuizBild, type QuizPaar } from "@/lib/quiz";
 
 const bildGroessen = "(min-width: 640px) 288px, 45vw";
 
-export default function Quiz() {
+export default function Quiz({ paare }: { paare: QuizPaar[] }) {
   // Nur im Speicher der Seite: Wer neu lädt, beginnt von vorn und sieht nie ein halbes Ergebnis.
   const [gewaehlt, setGewaehlt] = useState<QuizBild[]>([]);
   const ergebnisRef = useRef<HTMLHeadingElement>(null);
@@ -18,7 +18,7 @@ export default function Quiz() {
   }, [fertig]);
 
   if (fertig) {
-    const stil = stilAusAntworten(gewaehlt);
+    const stil = stilAusAntworten(gewaehlt, paare);
     return (
       <section aria-labelledby="ergebnis-titel">
         <h2 id="ergebnis-titel" ref={ergebnisRef} tabIndex={-1} className="mb-2 text-2xl font-semibold">

@@ -19,7 +19,7 @@
 
 **Fertig, wenn:** Du das Quiz am Handy und am Laptop einmal durchspielst und ein Stil-Ergebnis siehst, das zu deinen Antworten passt.
 
-## Issue 2 — Eigene Quiz-Bilder der Designerin ⬜ offen
+## Issue 2 — Eigene Quiz-Bilder der Designerin 🔧 in Arbeit
 
 **Ziel:** Die Designerin kann die Bilder für das Quiz selbst anlegen und jedem einen Stil zuordnen, damit das Quiz zu ihrem Studio passt und die Passung später stimmt.
 

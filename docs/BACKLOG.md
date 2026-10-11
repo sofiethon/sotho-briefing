@@ -4,7 +4,7 @@
 > Status: ⬜ offen · 🔧 in Arbeit · ✅ fertig (alle Kriterien im Browser geprüft)
 > Aufbau jedes Issues: **Ziel** (was danach möglich ist, für wen und warum – „damit …“) · **Nicht im Umfang** · **Akzeptanzkriterien** (Gegeben … wenn … dann …) · **Fertig, wenn** (woran man es prüft).
 
-## Issue 1 — Quiz machen und Stil-Ergebnis sehen ⬜ offen
+## Issue 1 — Quiz machen und Stil-Ergebnis sehen ✅ fertig
 
 **Ziel:** Eine Kundin kann ein kurzes Bilder-Quiz machen und danach ihren Stil in Alltagssprache sehen, damit sie ihren Geschmack zeigen kann, ohne ihn beschreiben zu müssen.
 

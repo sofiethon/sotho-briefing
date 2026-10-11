@@ -5,3 +5,4 @@
 
 - 2026-10-08 — Stack: Next.js + Tailwind + Supabase + Vercel — Kursvorgabe
 - 2026-10-08 — Sprache der Oberfläche: Deutsch — Zielgruppe NDU-Studierende
+- 2026-10-11 — Produktname sotho-briefing — aus dem Produkt-Brief
